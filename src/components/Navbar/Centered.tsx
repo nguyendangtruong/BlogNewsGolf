@@ -63,7 +63,7 @@ const CenteredNavbar = ({
                     ? transformImagePaths(logo.logoLight)
                     : transformImagePaths(logo.logo)
                 }
-                alt="WebExpe"
+                alt="BlogNewsGolf"
                 className="cursor-pointer"
                 width="100px"
               />

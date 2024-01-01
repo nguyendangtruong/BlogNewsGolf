@@ -6,9 +6,9 @@ import { iSEO } from "../src/shared/interfaces";
 const ContactUs = () => {
     const PAGE_SEO: iSEO = {
         title: 'Contact Us',
-        description: 'For any any queries related to this project / template feel free to connect with us on webexpe13@gmail.com',
-        keywords: 'webexpx, contact us, webexpe13@gmail.com, next js blog template',
-        author: 'Mayur Nalwala, Rupali Yadav'
+        description: 'For any any queries related to this project / template feel free to connect with us on BlogNewsGolf13@gmail.com',
+        keywords: 'webexpx, contact us, BlogNewsGolf13@gmail.com, next js blog template',
+        author: 'Blog News Golf, PG GOLD Sport'
     } 
     return (
         <PageLayout PAGE_SEO={PAGE_SEO} home>
@@ -21,7 +21,7 @@ const ContactUs = () => {
                     <div className="md:w-1/2 w-full md:pl-2">
                         <Text p className="!text-lg leading-relaxed">
                             For any any queries related to this project / template feel free to connect with us at the given email.
-                            You can also post any comments on our <a href="https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss/discussions" target="_blank" rel="noopener noreferrer"><u><i>github discussions</i></u></a>.
+                            You can also post any comments on our <a href="https://github.com/BlogNewsGolf13/blog-template-using-nextjs-typescript-tailwindcss/discussions" target="_blank" rel="noopener noreferrer"><u><i>github discussions</i></u></a>.
                         </Text>
                     </div>
                     <div className="md:w-1/3 w-full">
@@ -29,7 +29,7 @@ const ContactUs = () => {
                             write to us at
                         </Text>
                         <Text subtitle className="!font-light md:!text-3xl">
-                            webexpe13@gmail.com
+                            BlogNewsGolf13@gmail.com
                         </Text>
                     </div>
                 </div>

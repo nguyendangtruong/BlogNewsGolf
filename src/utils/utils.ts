@@ -202,7 +202,7 @@ export const CREATE_SEO_CONFIG = (PAGE_SEO: iSEO) => {
   let seo_config = {
     title: title,
     description: meta_description,
-    canonical: "https://webexpe.com/",
+    canonical: "https://https://blog-news-golf.glitch.me/",
     additionalMetaTags: [
       {
         property: "keywords",

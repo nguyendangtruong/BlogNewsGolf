@@ -250,34 +250,34 @@ const AllComponents = () => {
               <div className="flex flex-wrap">
                 <Image
                   src="/public/imp_assets/tutorials/demo-image.jpg"
-                  alt="how to use Image | webexpe.com"
+                  alt="how to use Image | https://blog-news-golf.glitch.me"
                   caption="Default size image with caption"
                   className="my-5"
                 />
                 <Image
                   src="/public/imp_assets/tutorials/demo-image.jpg"
-                  alt="how to use Image | webexpe.com"
+                  alt="how to use Image | https://blog-news-golf.glitch.me"
                   caption="Full size image with caption"
                   size={ImageSize.FUll}
                   className="mb-5"
                 />
                 <Image
                   src="/public/imp_assets/tutorials/demo-image.jpg"
-                  alt="how to use Image | webexpe.com"
+                  alt="how to use Image | https://blog-news-golf.glitch.me"
                   caption="Medium size image with caption"
                   size={ImageSize.MEDIUM}
                   className="mb-5"
                 />
                 <Image
                   src="/public/imp_assets/tutorials/demo-image.jpg"
-                  alt="how to use Image | webexpe.com"
+                  alt="how to use Image | https://blog-news-golf.glitch.me"
                   caption="Small size image with caption"
                   size={ImageSize.SMALL}
                   className="mb-5"
                 />
                 <Image
                   src="/public/imp_assets/tutorials/demo-image.jpg"
-                  alt="how to use Image | webexpe.com"
+                  alt="how to use Image | https://blog-news-golf.glitch.me"
                   caption="XS size image with caption"
                   size={ImageSize.XS}
                   className="mb-5"
@@ -399,10 +399,10 @@ const AllComponents = () => {
             <div className="px-4 py-3 dark:bg-slate-800 bg-blue-200 rounded my-5">
               <Text p className="!text-lg leading-relaxed mb-0">
                 For any any queries related to this project / template feel free
-                to connect with us at <u>webexpe13@gmail.com</u>. You can also
+                to connect with us at <u>BlogNewsGolf13@gmail.com</u>. You can also
                 post any comments on our{" "}
                 <a
-                  href="https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss/discussions"
+                  href="https://github.com/BlogNewsGolf13/blog-template-using-nextjs-typescript-tailwindcss/discussions"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

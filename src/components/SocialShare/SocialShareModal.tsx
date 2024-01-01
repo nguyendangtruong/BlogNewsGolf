@@ -28,7 +28,9 @@ const SocialShareModal = ({ closeModal, openShareModal = false }: any) => {
             <BsXLg className="pt-1 text-[18px] cursor-pointer" />
           </span>
         </div>
-
+        <p className="text-sm mb-3">
+          Share this link with your friends
+        </p>
         <SocialShare />
       </div>
     </div>

@@ -8,8 +8,8 @@ const TermsAndConditions = () => {
     const PAGE_SEO: iSEO = {
         title: 'Terms and conditions',
         description: `These terms and conditions outline the rules and regulations for the use of Website, located at ${WEBSITE_URL}.`,
-        keywords: 'webexpx, contact us, webexpe13@gmail.com, next js blog template',
-        author: 'Mayur Nalwala, Rupali Yadav'
+        keywords: 'webexpx, contact us, BlogNewsGolf13@gmail.com, next js blog template',
+        author: 'Blog News Golf, PG GOLD Sport'
     }    
     return (
         <PageLayout PAGE_SEO={PAGE_SEO} home>
@@ -18,9 +18,9 @@ const TermsAndConditions = () => {
                     Terms and Conditions
                 </Text>
                 <Text p >
-                    Welcome to [Website_Name]! <br /><br />
+                    Welcome to Blog News Golf - PG GOLD Sport! <br /><br />
                     These terms and conditions outline the rules and regulations for the use of [Company_Name]'s Website, located at [Website_URL]. <br />
-                    By accessing this website we assume you accept these terms and conditions. Do not continue to use [Website_Name] if you do not agree to take all of the terms and conditions stated on this page. <br />
+                    By accessing this website we assume you accept these terms and conditions. Do not continue to use Blog News Golf - PG GOLD Sport if you do not agree to take all of the terms and conditions stated on this page. <br />
                     The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company’s terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
                 </Text>
                 <Seperator line />
@@ -28,7 +28,7 @@ const TermsAndConditions = () => {
                     Cookies
                 </Text>
                 <Text p >
-                    We employ the use of cookies. By accessing [Website_Name], you agreed to use cookies in agreement with the [Company_Name]'s Privacy Policy. <br />
+                    We employ the use of cookies. By accessing Blog News Golf - PG GOLD Sport, you agreed to use cookies in agreement with the [Company_Name]'s Privacy Policy. <br />
                     Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
                 </Text>
                 <Seperator line />
@@ -36,14 +36,14 @@ const TermsAndConditions = () => {
                     License
                 </Text>
                 <Text p >
-                    Unless otherwise stated, [Company_Name] and/or its licensors own the intellectual property rights for all material on [Website_Name]. All intellectual property rights are reserved. You may access this from [Website_Name] for your own personal use subjected to restrictions set in these terms and conditions.
+                    Unless otherwise stated, [Company_Name] and/or its licensors own the intellectual property rights for all material on Blog News Golf - PG GOLD Sport. All intellectual property rights are reserved. You may access this from Blog News Golf - PG GOLD Sport for your own personal use subjected to restrictions set in these terms and conditions.
                 </Text>
                 <Text p >You must not:</Text>
                 <ul className="list-disc pl-8">
-                    <li>Republish material from [Website_Name]</li>
-                    <li>Sell, rent or sub-license material from [Website_Name]</li>
-                    <li>Reproduce, duplicate or copy material from [Website_Name]</li>
-                    <li>Redistribute content from [Website_Name]</li>
+                    <li>Republish material from Blog News Golf - PG GOLD Sport</li>
+                    <li>Sell, rent or sub-license material from Blog News Golf - PG GOLD Sport</li>
+                    <li>Reproduce, duplicate or copy material from Blog News Golf - PG GOLD Sport</li>
+                    <li>Redistribute content from Blog News Golf - PG GOLD Sport</li>
                 </ul>
                 <Text p >
                     This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the Terms And Conditions Generator. <br /><br />

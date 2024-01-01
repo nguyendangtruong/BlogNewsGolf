@@ -241,7 +241,7 @@ export const NavbarSetup_NAVLINKS = `
             {
                 // to open a link in new tab pass newTab: true
                 label: 'Support Us',
-                path: 'https://www.buymeacoffee.com/webexpe13z',
+                path: 'https://www.buymeacoffee.com/BlogNewsGolf13z',
                 newTab: true
             },
         ]

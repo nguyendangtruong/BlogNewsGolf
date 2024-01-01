@@ -39,7 +39,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
 
             <aside className={combineClasses(classes.nav_sidebar_wrapper, openSidebar && classes.open, 'dark:bg-slate-900 dark:text-white bg-white text-black')}>
                 <div className='flex items-center justify-between pb-3' onClick={closeNavSidebar}>
-                    <p className=''>menu</p>
+                    <p className=''>Menu</p>
                     <div><MdOutlineClose className='text-slate-800 dark:text-white text-[25px]' /></div>
                 </div>
                 <hr />
@@ -57,7 +57,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                                 <NavCatergoryDD label={each.label} openDD={openDD} setOpenDD={() => setOpenDD(!openDD)} />
                         ))
                     }
-                    {
+                    {/* {
                         env === 'development' ?
                             <>
                                 <hr />
@@ -91,11 +91,11 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                                 </LinkTo>
                             </>
                             : null
-                    }
+                    } */}
 
                 </div>
                 <hr />
-                <div className='my-5'>
+                {/* <div className='my-5'>
                     {
                         navSetup.socials && <>
                             <p className='font-light'>Follow us : </p> {
@@ -106,7 +106,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                             <hr className='mt-5' />
                         </>
                     }
-                </div>
+                </div> */}
                 <div className='mt-5 mb-4'>
                     <p className='mb-2 font-light'>Switch To {theme === THEMES.LIGHT ? 'Dark' : 'Light'} Theme :</p>
                     <button name="theme-switch" aria-label="theme-switch" className={combineClasses(classes.theme_switch, 'dark:text-white text-black')} onClick={() => changeTheme()}>
@@ -117,7 +117,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                 </div>
                 <hr />
                 <div className='my-5'>
-                    <p className='text-sm font-light dark:text-gray-400 text-gray-500 mb-1'>Copyright © 2022</p>
+                    <p className='text-sm font-light dark:text-gray-400 text-gray-500 mb-1'>Copyright © 2023</p>
                     <LinkTo href="/privacy-policy" passHref className='text-sm font-light dark:text-gray-400 text-gray-500 pr-3'>
                         Privacy Policy
                     </LinkTo>

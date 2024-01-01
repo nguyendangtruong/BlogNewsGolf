@@ -9,9 +9,9 @@ const SocialShare = () => {
   const url =
     typeof window !== "undefined" ? window.location.href : WEBSITE_URL;
 
-  const twitterShare = `http://twitter.com/share?text=Check out this article!! &url=${url}&hashtags=webdevelopment,javacript,javascriptdaily,webdevelopmenttutorial,tutorial`;
-  const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
-  const linkedinShare = `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=Check out this article!!&source=LinkedIn`;
+  const twitterShare = ``;
+  const facebookShare = ``;
+  const linkedinShare = ``;
 
   const trackShareEvent = (social: string) => {
     GAEvent({
@@ -43,7 +43,7 @@ const SocialShare = () => {
   return (
     <>
       <div className="flex flex-wrap items-center">
-        <a
+        {/* <a
           className="mr-3"
           aria-label="facebook-share"
           href={facebookShare}
@@ -81,7 +81,7 @@ const SocialShare = () => {
           target="popup"
         >
           <BsLinkedin className="text-[23px]" />
-        </a>
+        </a> */}
         <button
           className="mr-3"
           name="copy-link"

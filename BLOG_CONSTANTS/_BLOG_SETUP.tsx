@@ -23,44 +23,40 @@ import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFill
 }
  */
 
-export const MAYUR: IAuthor = {
-    name: "Mayur Nalwala",
-    designation: "Software Engineer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+export const MAYUR: IAuthor = { // Đây là tên tác giả mặc định. Bạn có thể thay đổi thành tên của bạn.
+    name: "Golf Game", // Đây là tên tác giả mặc định. Bạn có thể thay đổi thành tên của bạn.
+    designation: "Sport Game", // Đây là tên tác giả mặc định. Bạn có thể thay đổi thành tên của bạn.
+    bio: "Golf Game PG GOLF - 2023",
     profilePic: "",
-    social: [
-        {
-            icon: <AiFillGithub />,
-            link: 'https://github.com/nmayur'
-        },
-        {
-            icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/mayur-nalwala/'
-        },
-    ]
+    // social: [
+    //     {
+    //         icon: <AiFillGithub />,
+    //         link: 'https://github.com/nmayur'
+    //     },
+    //     {
+    //         icon: <AiFillLinkedin />,
+    //         link: 'https://www.linkedin.com/in/mayur-nalwala/'
+    //     },
+    // ]
 }
 
 export const RUPALI: IAuthor = {
-    name: "Rupali Yadav",
-    designation: "IT Analyst",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "PG GOLD Sport",
+    designation: "Sport News",
+    bio: "Golf Game PG GOLF",
     profilePic: "",
-    social: [
-        {
-            icon: <AiFillGithub />,
-            link: 'https://github.com/rupali-yadav'
-        },
-        {
-            icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/rupali-yadav-087bb4112/'
-        },
-    ]
+    // social: [
+    //     {
+    //         icon: <AiFillGithub />,
+    //         link: 'https://github.com/rupali-yadav'
+    //     },
+    // ]
 }
 
 
 // This can your company name / your name etc for SEO purposes
-export const WEBSITE_NAME: string = 'Next Js Blog Template';
-export const WEBSITE_URL: string = 'https://nextjs-simple-blog-template.web.app/';
+export const WEBSITE_NAME: string = 'Blog News Golf - PG GOLD Sport';
+export const WEBSITE_URL: string = ' http://localhost:3000/'; // https://nextjs-simple-blog-template.web.app/
 
 /**
  * This is the main navigation setup.
@@ -77,7 +73,7 @@ export const PRIMARY_NAV: iNavSetup = {
     // },
     logo: {
         type: LogoType.TEXT,
-        logo: 'Next Blog',
+        logo: 'Blog News Golf',
     },
     // navLinks are the main navbar links that apper on top of every page
     navLinks: [
@@ -95,21 +91,21 @@ export const PRIMARY_NAV: iNavSetup = {
             label: 'About Us',
             path: '/about-us'
         },
-        {
-            // to open a link in new tab pass newTab: true
-            label: 'Support Us',
-            path: 'https://www.buymeacoffee.com/webexpe13z',
-            newTab: true
-        },
-        {
-            label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
-            newTab: true
-        },
-        {
-            label: 'Contact Us',
-            path: '/contact-us'
-        }
+        // {
+        //     // to open a link in new tab pass newTab: true
+        //     label: 'Support Us',
+        //     path: 'https://www.buymeacoffee.com/BlogNewsGolf13z',
+        //     newTab: true
+        // },
+        // {
+        //     label: 'Github Repo',
+        //     path: 'https://github.com/BlogNewsGolf13/blog-template-using-nextjs-typescript-tailwindcss',
+        //     newTab: true
+        // },
+        // {
+        //     label: 'Contact Us',
+        //     path: '/contact-us'
+        // }
     ],
     // sideNavLinks are the links which appear when you open the side menu after clicking the burger menu icon.
     sideNavLinks: [
@@ -127,43 +123,43 @@ export const PRIMARY_NAV: iNavSetup = {
             label: 'About Us',
             path: '/about-us'
         },
-        {
-            label: 'Support Us',
-            path: 'https://www.buymeacoffee.com/webexpe13z',
-            newTab: true
-        },
-        {
-            label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
-            newTab: true
-        },
-        {
-            label: 'Contact Us',
-            path: '/contact-us'
-        }
+        // {
+        //     label: 'Support Us',
+        //     path: 'https://www.buymeacoffee.com/BlogNewsGolf13z',
+        //     newTab: true
+        // },
+        // {
+        //     label: 'Github Repo',
+        //     path: 'https://github.com/BlogNewsGolf13/blog-template-using-nextjs-typescript-tailwindcss',
+        //     newTab: true
+        // },
+        // {
+        //     label: 'Contact Us',
+        //     path: '/contact-us'
+        // }
     ],
     socials: [
-        {
-            link: 'https://www.facebook.com/',
-            icon: <AiFillFacebook />
-        },
-        {
-            link: 'https://www.instagram.com/',
-            icon: <AiFillInstagram />
-        },
-        {
-            link: 'https://twitter.com/WebExpe',
-            icon: <AiOutlineTwitter />
-        },
+        // {
+        //     link: 'https://www.facebook.com/',
+        //     icon: <AiFillFacebook />
+        // },
+        // {
+        //     link: 'https://www.instagram.com/',
+        //     icon: <AiFillInstagram />
+        // },
+        // {
+        //     link: 'https://twitter.com/BlogNewsGolf',
+        //     icon: <AiOutlineTwitter />
+        // },
     ]
 }
 
 export const DEFAULT_SEO: iSEO = {
-    title: "Nextjs simple blog template",
-    description: "A simple blog template using NextJS and Typescript.",
-    keywords: "Blog, next js, template, next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
+    title: "Blog News Golf - PG GOLD Sport", //Golf Game PG GOLD
+    description: "Update sports news about golf",
+    keywords: "Blog News Golf,  PG GOLD Sport, Golf Game PG GOLD,",
     url: WEBSITE_URL,
-    author: `${MAYUR.name}, ${RUPALI.name}`,
-    twitterHandle: '@WebExpe',
+    author: `${RUPALI.name}`,
+    twitterHandle: '@null', // đây là tên tài khoản twitter của bạn. Bạn có thể thay đổi thành tên tài khoản của bạn.
     ogImage: '/public/images/og-image.jpg'
 }
